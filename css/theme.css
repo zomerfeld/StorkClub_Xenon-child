@@ -53,12 +53,25 @@
 .topmenu{
 	height: 50px;
 	background: #161616;
-	margin: 0px 0px 0px 22%;
+	margin: 10px 0px 0px 22%;
 	overflow-x:hidden;
 	margin-bottom:230px;
 	z-index:100;
+	border-bottom:5px solid;
+
+
 }
 
+.topwidth {
+	max-width:920px;
+	width:73%;
+	border-bottom:5px solid;
+	position:absolute;
+	overflow:hidden;
+	height:1px;
+	display:inline-block;
+
+}
 
 .rest {
 	float:left;
@@ -668,6 +681,12 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 	}
 }
 
+
+.about {
+	float:left;
+	margin-right:10%;
+	margin-bottom:30px;
+}
 	.widget_nav_menu li, widget_nav_menu ul {
 		margin-bottom:10px !important;
 		margin-top:10px;

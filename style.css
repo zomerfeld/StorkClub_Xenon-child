@@ -422,6 +422,7 @@ a:active {
 /* =Media
 ----------------------------------------------- */
 
+
 .site-header img,
 .entry-content img,
 .comment-content img,
@@ -473,7 +474,7 @@ img.size-full {
 .gallery-caption {
 }
 .site-content .gallery a img {
-	border: none;
+	border: none !important;
 	height: auto;
 	max-width:90%;
 	

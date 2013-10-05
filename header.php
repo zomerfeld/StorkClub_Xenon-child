@@ -56,7 +56,6 @@
 	<p> HOURS 12PM - SHOWTIME! </p>
 <!--	<?php wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?> -->
 
-
 </div>
 
 <div id="main" class="site-main cf">
