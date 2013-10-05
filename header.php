@@ -47,7 +47,7 @@
 <div id="page" class="hfeed site container_12">
 
 <div class="topmenu">
-		<img class="logo" src="http://newstorkclub.com/wp-content/uploads/2013/10/Site_logo.png" alt="logo">
+		<a href="/"> <img class="logo" src="http://newstorkclub.com/wp-content/uploads/2013/10/Site_logo.png" alt="logo"> </a>
 			<i class="icon-facebook-sign"></i>
 	<i class="icon-twitter-sign"></i>
 	<i class="icon-youtube-sign"></i>

@@ -475,7 +475,6 @@ img.size-full {
 .site-content .gallery a img {
 	border: none;
 	height: auto;
-	min-height:300px;
 	max-width:90%;
 	
 }

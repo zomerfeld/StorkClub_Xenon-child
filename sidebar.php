@@ -6,7 +6,7 @@
  * @since web2feel 1.0
  */
 ?>
-<div id="secondary" class="widget-area grid_3 equal_height" role="complementary">
+<div id="secondary" class="widget-area grid_3" role="complementary">
 
 		<header id="masthead" class="site-header" role="banner">
 		</header><!-- #masthead .site-header -->

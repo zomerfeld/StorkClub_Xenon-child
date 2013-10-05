@@ -633,12 +633,15 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 /* Footer */
 
 .site-footer{
-	background: #2b2b2b;
+	background:#161616;
 	padding:20px 0px;
-	font-size:12px;
+	font-size:18px;
 	text-align: center;
 	margin-bottom: 30px;
-	margin-left:255px;
+	color:#F2EBE4;
+	margin-left:26%
+	width:74%;
+	bottom:0;
 }
 
 .fcred{
@@ -699,13 +702,37 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 		color: red;
 	}
 
-.mp3s {
-	margin: 10px 10px 10px 10px;
-	text-align:center;
+.right {
+	float:right;
 }
-	.mp3s h2 {
-		color:#8e534d;
+
+
+.mp3s {
+	margin: 60px 10px 10px 10px;
+	padding: 4%;
+	max-width:400px;
+	text-align:center;
+	background:#272727;
+
+
+}
+
+.mp3s h2 {
+		color:#F2EBE4;
 		size:20px;
 		
-		}
+}
+
+.gallery-item {
+	text-align:right !important;
+}
+
+.gallery-caption {
+	text-align: right !important;
+}
+
+
+.flyers .gallery a img {
+	min-height:300px;	
+}
 
