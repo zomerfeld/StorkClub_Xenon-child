@@ -19,6 +19,7 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
+@import url(./font-awesome/css/font-awesome.min);
 
 /* =Reset
 -------------------------------------------------------------- */
@@ -100,7 +101,7 @@ button,
 input,
 select,
 textarea {
-	color: #999;
+	color: #F2EBE4;
 	font-family: 'Lato',sans-serif;
 	font-size: 13px;
 	font-size: 1.3rem;
@@ -474,7 +475,9 @@ img.size-full {
 .site-content .gallery a img {
 	border: none;
 	height: auto;
-	max-width: 90%;
+	min-height:300px;
+	max-width:90%;
+	
 }
 .site-content .gallery dd {
 	margin: 0;

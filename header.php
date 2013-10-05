@@ -47,8 +47,15 @@
 <div id="page" class="hfeed site container_12">
 
 <div class="topmenu">
-		<img class="logo" src="http://newstorkclub.com/wp-content/uploads/2013/10/Site_logo.gif" alt="logo">
+		<img class="logo" src="http://newstorkclub.com/wp-content/uploads/2013/10/Site_logo.png" alt="logo">
+			<i class="icon-facebook-sign"></i>
+	<i class="icon-twitter-sign"></i>
+	<i class="icon-youtube-sign"></i>
+	<p> 2330 TELEGRAPH AVE., OAKLAND, CA 94612 </p>
+	<i class="icon-beer"></i>
+	<p> HOURS 12PM - SHOWTIME! </p>
 <!--	<?php wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?> -->
+
 
 </div>
 

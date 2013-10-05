@@ -1,18 +1,23 @@
 #page{
 
-	margin: 50px auto;
+	margin: auto;
+}
+
+.site-main {
+	clear:both;
 }
 
 #secondary{
 	background:#c22443;
 	position: relative;
 	max-width:250px;
-	padding-left:3%;
+	padding-top:30px;
 
 }
 
 #primary{
 	background: #161616;
+	margin-top:-230px;
 }
 
 /* Header */
@@ -20,7 +25,10 @@
 .logo {
 	margin:30px 0px 30px 20px;
 	padding-left:2%;
+	float:left;
 }
+
+
 
 .logo h1{
 	text-transform: uppercase;
@@ -43,24 +51,49 @@
 /* Menu */
 
 .topmenu{
-	width:960px;
 	height: 50px;
-	background: #000;
-	margin: 0px 0px 0px 0px;
+	background: #161616;
+	margin: 0px 0px 0px 22%;
+	overflow-x:hidden;
+	margin-bottom:230px;
+	z-index:100;
 }
 
-.logobox {
-	display:inline-box;
-	top:3%;
-	left:100px;
-	z-index:200;
-	width:50%;
+
+.rest {
+	float:left;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-top:8px;
+	margin-bottom:8px;
+	width:1000px;
 }
+
+.topmenu i {
+	margin-left:5px;
+	font-size:36px;
+	position:relative;
+	display:inline-block;
+	bottom:36%;
+
+
+}
+
+.topmenu p {
+	display:inline-block;
+	margin-left:40px;
+	margin-right:40px;
+	top:30%;
+	position:relative;
+	font-size:20px;
+	overflow-x:scroll;
+}
+
 
 .topmenu img  {
-	position:relative;
+	position:absolute;
 	left:10px;
-	z-index:100;
+	z-index:120;
 	width:200px;
 	margin: 0;
 	overflow:hidden;
@@ -249,7 +282,8 @@ h1.entry-title a:link,h1.entry-title a:visited {
 	color:#ccc;
 }
 .entry-content,.entry-summary{
-	padding: 0px 30px;
+	padding-left:80px;
+	margin-top:30px;
 	line-height: 1.6;
 }
 
@@ -261,7 +295,7 @@ footer.entry-meta{
 ----------------------------------------------- */
 
 .widget {
-	margin: 280px 0px 20px 0px;
+	margin: 20px 0px 20px 0px;
 
 	
 }
@@ -599,7 +633,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 /* Footer */
 
 .site-footer{
-	background: #000;
+	background: #2b2b2b;
 	padding:20px 0px;
 	font-size:12px;
 	text-align: center;
