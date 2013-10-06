@@ -17,7 +17,7 @@
 
 #primary{
 	background: #161616;
-	margin-top:-230px;
+	margin-top:-200px;
 }
 
 /* Header */
@@ -657,6 +657,12 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 	bottom:0;
 }
 
+/* remove to return text in footer */
+
+.site-footer p {
+	display:none;
+}
+
 .fcred{
 	color:#fff;
 	padding:0px 30px;
@@ -755,3 +761,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 	min-height:300px;	
 }
 
+.links img {
+	margin-left:10%;
+	vertical-align:middle;
+}
