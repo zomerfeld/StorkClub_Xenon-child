@@ -26,6 +26,7 @@
 	margin:30px 0px 30px 20px;
 	padding-left:2%;
 	float:left;
+
 }
 
 
@@ -774,3 +775,32 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 .links h1,h2 {
 	margin-left:23%;
 }
+
+/* overrides for Portfolio Slideshow - centers thumbs and images */
+.slideshow-wrapper {
+	text-align:center;
+}
+
+.slideshow-wrapper .pager img {
+	float:none;
+	display:inline-block;	
+	padding: 0 10px 10px 10px;
+}
+
+.slideshow-content {
+	height:400px;
+}
+
+
+
+.pscarousel {
+	text-align:center;
+	margin-top:30px;
+}
+
+.slideshow-content img {
+	display:inline-block;
+	height:100%;
+}
+
+/* End Portfolio Slideshow */
