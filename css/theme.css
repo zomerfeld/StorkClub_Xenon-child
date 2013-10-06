@@ -765,15 +765,19 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 
 .links {
 	margin-top:60px;
+	text-align:center;
 }
 
 .links img {
-	margin-left:10%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:10px;
+	display: inline-block;
 	vertical-align:middle;
 }
 
 .links h1,h2 {
-	margin-left:23%;
+	margin-left:-10%;
 }
 
 /* overrides for Portfolio Slideshow - centers thumbs and images */
