@@ -762,7 +762,15 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 	min-height:300px;	
 }
 
+.links {
+	margin-top:60px;
+}
+
 .links img {
 	margin-left:10%;
 	vertical-align:middle;
+}
+
+.links h1,h2 {
+	margin-left:23%;
 }
