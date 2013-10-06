@@ -53,13 +53,44 @@
 .topmenu{
 	height: 50px;
 	background: #161616;
-	margin: 10px 0px 0px 22%;
+	margin: 25px 0px 0px 22%;
 	overflow-x:hidden;
 	margin-bottom:230px;
 	z-index:100;
 	border-bottom:5px solid;
 
 
+}
+
+.topmenu i {
+	margin-left:5px;
+	font-size:36px;
+	position:relative;
+	display:inline-block;
+	bottom:0;
+
+
+}
+
+.topmenu p {
+	display:inline-block;
+	margin-left:40px;
+	margin-right:40px;
+	position:relative;
+	font-size:14px;
+	overflow-x:scroll;
+	font-family:'atticantique', serif;
+	vertical-align:middle;	
+}
+
+
+.topmenu img  {
+	position:absolute;
+	left:10px;
+	z-index:120;
+	width:200px;
+	margin: 0;
+	overflow:hidden;
 }
 
 .topwidth {
@@ -80,36 +111,6 @@
 	margin-top:8px;
 	margin-bottom:8px;
 	width:1000px;
-}
-
-.topmenu i {
-	margin-left:5px;
-	font-size:36px;
-	position:relative;
-	display:inline-block;
-	bottom:36%;
-
-
-}
-
-.topmenu p {
-	display:inline-block;
-	margin-left:40px;
-	margin-right:40px;
-	top:30%;
-	position:relative;
-	font-size:20px;
-	overflow-x:scroll;
-}
-
-
-.topmenu img  {
-	position:absolute;
-	left:10px;
-	z-index:120;
-	width:200px;
-	margin: 0;
-	overflow:hidden;
 }
 
 #submenu {

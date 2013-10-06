@@ -21,6 +21,19 @@ and Blueprint http://www.blueprintcss.org/
 
 @import url(./font-awesome/css/font-awesome.min);
 
+@font-face {
+    font-family: 'atticantique';
+    src: url('/wp-content/themes/StorkClub_Xenon-child/attic_antique-webfont.eot');
+    src: url('/wp-content/themes/StorkClub_Xenon-child/attic_antique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/StorkClub_Xenon-child/attic_antique-webfont.woff') format('woff'),
+         url('/wp-content/themes/StorkClub_Xenon-child/attic_antique-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/StorkClub_Xenon-child/attic_antique-webfont.svg#atticantique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /* =Reset
 -------------------------------------------------------------- */
 
@@ -115,7 +128,8 @@ body{
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
-	margin:0px 0px 10px 0px;
+	margin:0px 0px 30px 0px;
+	font-family:'atticantique', serif;
 }
 
 
