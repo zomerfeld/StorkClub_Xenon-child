@@ -808,3 +808,49 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 }
 
 /* End Portfolio Slideshow */
+
+
+/* The Events Calendar - tribe view modifications */
+#tribe-events {
+	margin-right:8%; 
+}
+
+.tribe-events-othermonth {
+	background:none;	
+}
+
+#tribe-events-content .tribe-events-calendar td:hover {	
+	background:#272727;
+}
+
+.tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"], tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"]>a,  .tribe-events-calendar div[id*="tribe-events-daynum-"], .tribe-events-calendar div[id*="tribe-events-daynum-"] a {
+
+	background-color:#272727;
+	color:#F2EBE4;
+}
+
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"]>a, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
+	background-color:#9b1515;
+}
+
+#tribe-bar-form {
+	background-color:#b5b5b5;
+}
+
+.tribe-bar-views-inner {
+	background-color:#B5B5B5;
+}
+
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a  {
+	background-color:#B5B5B5;
+}
+
+
+.tribe-bar-disabled #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a:hover {
+	background:none;
+}
+
+.dropdown-menu {
+	background-color:#272727;
+}
+/ * End The Events Calendar modifications */
