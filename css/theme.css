@@ -732,7 +732,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 
 .mp3s {
 	margin: 60px 10px 10px 10px;
-	padding: 4%;
+	padding: 2%;
 	max-width:400px;
 	text-align:center;
 	background:#272727;
@@ -743,6 +743,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 .mp3s h2 {
 		color:#F2EBE4;
 		size:20px;
+		margin:0;
 		
 }
 
@@ -831,7 +832,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 }
 
 .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"]>a, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
-	background-color:#9b1515;
+	background-color:#A55E5B;
 }
 
 .tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"]>a {
@@ -866,7 +867,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 }
 
 #tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal {
-	color:#9b1515;
+	color:#A55E5B;
 }
 
 / * End The Events Calendar modifications */
