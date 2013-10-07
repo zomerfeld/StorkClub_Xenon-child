@@ -723,11 +723,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 		color: white;
 	}
 
-	.widget_nav_menu li a:hover,
-	.widget_nav_menu ul a:hover {
-		background-color: #404040;
-		color: red;
-	}
+
 
 .right {
 	float:right;
@@ -778,6 +774,11 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 
 .links h1,h2 {
 	margin-left:-10%;
+}
+
+.sound {
+	text-align:justify;	
+	text-justify:inter-ideograph;
 }
 
 /* overrides for Portfolio Slideshow - centers thumbs and images */
@@ -833,6 +834,11 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 	background-color:#9b1515;
 }
 
+.tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"]>a {
+	background-color:#272727;
+}
+
+
 #tribe-bar-form {
 	background-color:#b5b5b5;
 }
@@ -853,4 +859,14 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 .dropdown-menu {
 	background-color:#272727;
 }
+
+.tribe-events-calendar .tribe-events-tooltip, .tribe-events-week .tribe-events-tooltip, .recurring-info-tooltip {
+	background-color:#F2EBE4;
+	
+}
+
+#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal {
+	color:#9b1515;
+}
+
 / * End The Events Calendar modifications */
