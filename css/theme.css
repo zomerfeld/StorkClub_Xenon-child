@@ -55,7 +55,7 @@
 	height: 50px;
 	background: #161616;
 	margin: 25px 0px 0px 22%;
-	overflow-x:hidden;
+	overflow:hidden;
 	margin-bottom:230px;
 	z-index:100;
 	border-bottom:5px solid;
@@ -69,6 +69,7 @@
 	position:relative;
 	display:inline-block;
 	bottom:0;
+	color:#F2EBE4;
 
 
 }
@@ -79,7 +80,7 @@
 	margin-right:40px;
 	position:relative;
 	font-size:14px;
-	overflow-x:scroll;
+	overflow:hidden;
 	font-family:'atticantique', serif;
 	vertical-align:middle;	
 }
@@ -773,7 +774,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 	vertical-align:middle;
 }
 
-.links h1,h2 {
+.links h1 {
 	margin-left:-10%;
 }
 
@@ -815,6 +816,7 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 /* The Events Calendar - tribe view modifications */
 #tribe-events {
 	margin-right:8%; 
+	
 }
 
 .tribe-events-othermonth {

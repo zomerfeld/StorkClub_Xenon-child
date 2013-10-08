@@ -35,7 +35,9 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
@@ -48,9 +50,9 @@
 
 <div class="topmenu">
 		<a href="/"> <img class="logo" src="http://newstorkclub.com/wp-content/uploads/2013/10/Site_logo_color1.png" alt="logo"> </a>
-			<i class="icon-facebook-sign"></i>
-	<i class="icon-twitter-sign"></i>
-	<i class="icon-youtube-sign"></i>
+		<a href="https://www.facebook.com/pages/Stork-Club/167951546029"><i class="icon-facebook-sign"></i> </a>
+		<a href="https://twitter.com/TheStorkClub"><i class="icon-twitter-sign"></i></a>
+		<a href="http://www.youtube.com/results?search_query=stork+club+oakland&oq=stork+club+oakland&gs_l=youtube.3..0.561.2419.0.2516.18.11.0.6.6.0.134.919.8j3.11.0...0.0...1ac.1.11.youtube.uVWWkGvAwBo"><i class="icon-youtube-sign"></i></a>
 	<p> 2330 TELEGRAPH AVE., OAKLAND, CA 94612 </p>
 	<i class="icon-beer"></i>
 	<p> HOURS 12PM - SHOWTIME! </p>
