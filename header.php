@@ -50,12 +50,12 @@
 
 <div class="topmenu">
 		<a href="/"> <img class="logo" src="http://newstorkclub.com/wp-content/uploads/2013/10/Site_logo_color1.png" alt="logo"> </a>
-		<a href="https://www.facebook.com/pages/Stork-Club/167951546029"><i class="icon-facebook-sign"></i> </a>
-		<a href="https://twitter.com/TheStorkClub"><i class="icon-twitter-sign"></i></a>
-		<a href="http://www.youtube.com/results?search_query=stork+club+oakland&oq=stork+club+oakland&gs_l=youtube.3..0.561.2419.0.2516.18.11.0.6.6.0.134.919.8j3.11.0...0.0...1ac.1.11.youtube.uVWWkGvAwBo"><i class="icon-youtube-sign"></i></a>
+		<a href="https://www.facebook.com/pages/Stork-Club/167951546029" alt="facebook" target="_blank"><i class="icon-facebook-sign"></i> </a>
+		<a href="https://twitter.com/TheStorkClub" alt="twitter" target="_blank"><i class="icon-twitter-sign"></i></a>
+		<a href="http://www.youtube.com/results?search_query=stork+club+oakland&oq=stork+club+oakland&gs_l=youtube.3..0.561.2419.0.2516.18.11.0.6.6.0.134.919.8j3.11.0...0.0...1ac.1.11.youtube.uVWWkGvAwBo" alt="youtube" target="_blank"><i class="icon-youtube-sign"></i></a>
 	<p> 2330 TELEGRAPH AVE., OAKLAND, CA 94612 </p>
 	<i class="icon-beer"></i>
-	<p> HOURS 12PM - SHOWTIME! </p>
+	<p>12PM - SHOWTIME!</p>
 <!--	<?php wp_nav_menu( array( 'container_id' => 'submenu', 'theme_location' => 'primary','menu_id'=>'web2feel' ,'menu_class'=>'sfmenu','fallback_cb'=> 'fallbackmenu' ) ); ?> -->
 
 </div>
